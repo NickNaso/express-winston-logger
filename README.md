@@ -2,14 +2,16 @@
 
 This repository contains all code to handle logs in [ExpressJS](http://expressjs.com/) Application using [winston](https://github.com/winstonjs/winston) logger
 
-This repository contains all code to handle simple connection to MongoDB in an [Express](http://expressjs.com/) application.
+When you dev a web service logging what happen in http request is very important specially to debug your service.
+In this repo i use a wrapper on winston logger to log the request. You can use the logger attaching it directly to
+expressjs application or everywhere in your code. It's your choice. Take a look at code and i hope to be helpful.
 
 ## Installation
 
 To install and test the code please follow the following steps:
 
 * Clone or fork the repository
-* Go to the local repository folder and digit 
+* Go to the local repository folder and digit
 
 ```bash
 npm install
@@ -25,6 +27,10 @@ The express application start at: [http://localhost:5000/](http://localhost:5000
 
 I created this repository for all of you have trouble in handle logs in ExpressJS Application.
 Feel free to send me feedback and issue to improve the example.
+
+## References
+
+[Logging Control In W3C httpd](https://www.w3.org/Daemon/User/Config/Logging.html)
 
 ## Nicola Del Gobbo
 
