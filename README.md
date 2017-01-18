@@ -3,7 +3,7 @@
 This repository contains all code to handle logs in [ExpressJS](http://expressjs.com/) Application using [winston](https://github.com/winstonjs/winston) logger
 
 When you dev a web service logging what happen in http request is very important specially to debug your service.
-In this repo i use a wrapper on winston logger to log the request. You can use the logger attaching it directly to
+In this repo i use a wrapper of winston logger to log the requests. You can use the logger attaching it directly to
 expressjs application or everywhere in your code. It's your choice. Take a look at code and i hope to be helpful.
 
 ## Installation
